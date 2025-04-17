@@ -1,6 +1,6 @@
-# My Awesome Project 🚀
+# My First CI/CD Project 🚀
 
-This project is automatically updated using GitHub Actions.
+This project is automatically updated using GitHub Actions. 
 
 _Last updated: 2025-04-17 16:29:43 IST_
 
