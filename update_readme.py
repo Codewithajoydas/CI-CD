@@ -12,7 +12,7 @@ _Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC_
 - Auto Git push with GitHub Actions 🤖
 """
 
-    with open("README.md", "w") as f:
+    with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
 
 if __name__ == "__main__":
