@@ -28,12 +28,12 @@ jobs:
 
       - name: Commit and push if README.md changed
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "codewithajoydas"
+          git config --global user.email "codewithajoydas@gmail.com"
           git add README.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Auto-update README"
             git push
-          fi
+          
